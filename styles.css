@@ -31,6 +31,18 @@ header {
     padding: 15px 15px;
 }
 
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7px;
+}
+
+a img{
+    width: 19px;
+    height: 19px;
+}
+
 .go-icon {
     width: 50px;
 }
@@ -110,5 +122,9 @@ footer {
 
     .go-icon {
         width: 40px;
+    }
+
+    a {
+        column-gap: 10px;
     }
 }
