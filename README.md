@@ -1,6 +1,8 @@
-# 🙏 Welcome to the README of <a href="https://shubhgw.github.io/stater">Starter</a> Page 👈
+# 🙏 Welcome to the README of <a href="https://shubhgw.github.io/starter">Starter</a> Page 👈
 
 ## <a href="https://shubhgw.github.io/portfolioshubhgw"> 🌐 Starter site : https://shubhgw.github.io/starter </a>
+
+<img src="assests/images/showimage.png" alt="Show image" />
 
 ### 🎨 I kept this simple in terms of UI , 😁
 
