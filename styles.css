@@ -70,7 +70,7 @@ header h1 {
 }
 
 main {
-    margin-top: 82px;
+    margin-top: 70px;
 }
 
 .cat {
@@ -122,7 +122,7 @@ footer {
     /* font-weight: bold; */
 }
 
-@media only screen and (max-width:1000px) {
+/* @media only screen and (max-width:1000px) {
     header{
         flex-direction: column;
         justify-content: left;
@@ -137,14 +137,18 @@ footer {
     main{
         margin-top: 112px;
     }
+} */
 
+
+@media only screen and (max-width:390px) {
+    header{
+        margin-top: 8px;
+    }
 }
-
-
 @media only screen and (max-width:450px) {
 
     body {
-        margin: 10px;
+        margin: 15px;
     }
 
     header h1 {
@@ -152,9 +156,15 @@ footer {
     }
 
     .cat h2 {
-        font-size: 7vw;
+        font-size: 6.5vw;
+        display: flex;
         flex-wrap: wrap;
     }
+
+    /* .cat img{
+        width: 30px;
+        height: 30px;
+    } */
 
     .go-icon {
         width: 40px;
@@ -164,10 +174,9 @@ footer {
         column-gap: 10px;
     }
 
-    .head2 h3 {
+    /* .head2 h3 {
         font-size: 4vw;
-    }
-
+    } */
 
 
 
