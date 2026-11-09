@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: var(--background-color);
   margin: 20px;
 }
 
@@ -41,7 +41,7 @@ header {
 }
 
 .head1 {
-  column-gap: 5px;
+  column-gap: 10px;
 }
 
 .head2 {
@@ -150,22 +150,30 @@ footer {
     }
 } */
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   header {
     margin-top: 8px;
   }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 520px) {
   body {
     margin: 15px;
   }
 
+  header{
+    padding: 10px  20px;
+  }
+
   header h1 {
-    font-size: 7vw;
+    font-size: 5.9vw;
+  }
+
+  main{
+    margin-top: 75px;
   }
 
   .cat h2 {
-    font-size: 6.5vw;
+    /* font-size: 22px; */
     display: flex;
     flex-wrap: wrap;
   }
